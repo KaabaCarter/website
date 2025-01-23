@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Portfolio Website</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+
+
+        
+        <div class = "align">
+            
+            <div id ="home">
+
+                
+
+
+                
+                
+            <div id = "intro">
+            <video loop autoplay muted src="videos/webintrotype.mp4" id = "introVid" type="video/mp4" length = 100% width = 100% ></video>
+            
+           
+
+            </div>
+                
+                
+                <nav>
+                    <ul id = "directory" class="no-bullets">
+                        <li><a href="#intro"><h3>Home</h3></a></li>
+                        <li><a href="about.html"><h3>About</h3></a></li>
+                        <li><a href="skills.html"><h3>Skills</h3></a></li>
+                        <li><a href="projects.html"><h3>Projects</h3></a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+
+           
+
+            <div class = "container" id = "contact">
+
+                <h1>Contact Info:</h1>
+
+                <ul class="no-bullets">
+
+                    <li><img src="https://clipground.com/images/email-icon-png-free-download-16.png" length = 25 width = 25></li>
+                    <li><h3>Email:</h3></li>
+                    <li><a href="mailto:kaaba.carter.03@gmail.com"><p>kaaba.carter.03@gmail.com</p></a></li>
+
+                    <li><img src="https://logodix.com/logo/558756.png"length = 25 width = 25></li>
+                    <li><h3>Linkedin:</h3></li>
+                    <li><a href="https://www.linkedin.com/in/kaabacarter/"><p>www.linkedin.com/in/kaabacarter/</p></a></li>
+
+                    <li><img src="https://www.nicepng.com/png/full/23-230042_instagram-logo-black-borders-png-transparent-background-instagram.png" length = 25 width = 25></li>
+                    <li><h3>Instagram:</h3></li>
+                    <li><a href="https://www.instagram.com/kaabas_art/"><p>@kaabas_art</p></a></li>
+                    
+                </ul>
+            
+
+
+            </div>
+
+
+            <div class = "black">
+
+                <h1>Leave a Recomendation:</h1>
+
+                <input type="text" id ="recognitionName" placeholder="Name(Optional)"><br>
+                <textarea id="recognitionMessage" placeholder="Message" required></textarea><br>
+                <button onclick="addRecognition()">Add Recognition</button>
+
+            </div>
+
+            
+
+
+        </div>
+        
+        <div class="space"></div> 
+
+        <div class="recognition-list" id="recognitionList"></div>   
+        
+        <div class="space"></div> 
+            
+        </div>
+        
+    </body>
+
+</html>
